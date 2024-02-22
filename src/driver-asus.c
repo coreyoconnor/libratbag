@@ -560,7 +560,6 @@ asus_driver_commit(struct ratbag_device *device)
 			drv_data->is_ready = 1;
 			log_error(device->ratbag, "Device was successfully reloaded\n");
 		}
-		return RATBAG_ERROR_DEVICE;  /* fail in any case because we tried to rollback instead of commit */
 	}
 
 	/* save profiles */
