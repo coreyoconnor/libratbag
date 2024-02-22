@@ -147,12 +147,12 @@ static const struct asus_button ASUS_BUTTON_MAPPING[] = {
 	{ 0xe1, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 4, 0 },  /* backward, right side */
 	{ 0xe2, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 5, 0 },  /* forward, right side */
 	{ 0xe7, RATBAG_BUTTON_ACTION_TYPE_SPECIAL, 0, RATBAG_BUTTON_ACTION_SPECIAL_RESOLUTION_ALTERNATE },  /* DPI target */
-	{ 0xea, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button A */
-	{ 0xeb, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button B */
-	{ 0xec, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button C */
-	{ 0xed, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button D */
-	{ 0xee, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button E */
-	{ 0xef, RATBAG_BUTTON_ACTION_TYPE_NONE, 0, 0 },  /* side button F */
+	{ 0xea, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 6, 0 },  /* side button A */
+	{ 0xeb, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 7, 0 },  /* side button B */
+	{ 0xec, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 8, 0 },  /* side button C */
+	{ 0xed, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 9, 0 },  /* side button D */
+	{ 0xee, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 10, 0 },  /* side button E */
+	{ 0xef, RATBAG_BUTTON_ACTION_TYPE_BUTTON, 11, 0 },  /* side button F */
 };
 
 const struct asus_button *
